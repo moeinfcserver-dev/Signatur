@@ -12,10 +12,7 @@ public class signatur
  {
      
  }
-  public boolean compareTo(int o)
-  {
-      return true;
-  }
+  
  public String compareTo(String num)
  {
      return "";
@@ -25,20 +22,11 @@ public class signatur
  {
      return true;
  }
- public String compareTo(int num)
- {
-     return "";
- }
+ 
  public boolean compareTo(String o, boolean gross)
  {
      return false;
  }
- public int compareTo(int o)
- {
-     return 0;
- }
- public boolean compareTo(String num)
- {
-     return false;
- }
+ 
+ 
 }
